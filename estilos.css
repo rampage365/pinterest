@@ -26,6 +26,13 @@ body{
         display: none;
     }
 
+    .navbar-desktop{
+        position: fixed;
+        
+        z-index: 1;
+    }
+
+
 
 }
 
@@ -36,7 +43,9 @@ body{
         
     }
     .navbar-desktop{
+        display: flex;
         display: none;
+        margin-bottom: 10em;
 
     }
 
@@ -368,11 +377,15 @@ input {
     GRID FLEX IMG
 *********************/
 
-.grid-container{    
+.grid-container{   
     columns: 8 210px;
     column-gap: 2em;
-    margin-bottom: 2em;    
+    margin-bottom: 2em;  
+    
+    
 }
+
+
 
 .container{    
     max-width: 100%;
@@ -381,13 +394,14 @@ input {
     border-radius: 15px;
     cursor: zoom-in;
     background-color: lightgray;
+    
        
 }
 
 /****HOVER IMG****/
 
     .grid-container{
-        padding: 1em 3.5em 0px 3.5em;
+        padding: 6em 3.5em 0px 3.5em;
 
     }
     .contenedor figure{
